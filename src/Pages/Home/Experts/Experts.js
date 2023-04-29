@@ -18,8 +18,8 @@ const experts=[
 
 const Experts = () => {
     return (
-        <div>
-            <h2 className='text-primary'>Our Experts</h2>
+        <div className='container'>
+            <h2 className='text-primary text-center mt-5'>Our Experts</h2>
             <div className="row">
             {
                 experts.map(expert=><Expert
