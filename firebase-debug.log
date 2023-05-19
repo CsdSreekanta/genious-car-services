@@ -1,0 +1,33 @@
+[debug] [2023-05-19T10:23:25.448Z] ----------------------------------------------------------------------
+[debug] [2023-05-19T10:23:25.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-05-19T10:23:25.451Z] CLI Version:   12.0.1
+[debug] [2023-05-19T10:23:25.451Z] Platform:      win32
+[debug] [2023-05-19T10:23:25.451Z] Node Version:  v18.7.0
+[debug] [2023-05-19T10:23:25.478Z] Time:          Fri May 19 2023 16:23:25 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-05-19T10:23:25.478Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-19T10:23:25.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-19T10:23:25.611Z] > authorizing via signed-in user (sreekanta5002@gmail.com)
+[debug] [2023-05-19T10:23:25.611Z] [iam] checking project genious-car-services-fe235 for permissions ["firebase.projects.get"]
+[debug] [2023-05-19T10:23:25.613Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/genious-car-services-fe235:testIamPermissions [none]
+[debug] [2023-05-19T10:23:25.613Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/genious-car-services-fe235:testIamPermissions x-goog-quota-user=projects/genious-car-services-fe235
+[debug] [2023-05-19T10:23:25.613Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/genious-car-services-fe235:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-19T10:23:27.375Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/genious-car-services-fe235:testIamPermissions 200
+[debug] [2023-05-19T10:23:27.375Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/genious-car-services-fe235:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-05-19T10:23:27.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 [none]
+[debug] [2023-05-19T10:23:28.619Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 200
+[debug] [2023-05-19T10:23:28.619Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 {"projectId":"genious-car-services-fe235","projectNumber":"595594979442","displayName":"genious-car-services","name":"projects/genious-car-services-fe235","resources":{"hostingSite":"genious-car-services-fe235"},"state":"ACTIVE","etag":"1_f5350fab-a427-41ed-a8d5-6c4660bfeb30"}
+[info] 
+[info] === Serving from 'C:\projects\genious-car-services'...
+[info] 
+[debug] [2023-05-19T10:23:28.623Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/genious-car-services-fe235/sites 
+[debug] [2023-05-19T10:23:30.062Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/genious-car-services-fe235/sites 200
+[debug] [2023-05-19T10:23:30.062Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/genious-car-services-fe235/sites {"sites":[{"name":"projects/genious-car-services-fe235/sites/genious-car-services-fe235","defaultUrl":"https://genious-car-services-fe235.web.app","appId":"1:595594979442:web:3bbc71e6502aeba51ffaeb","type":"DEFAULT_SITE"}]}
+[debug] [2023-05-19T10:23:30.063Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235/webApps/1:595594979442:web:3bbc71e6502aeba51ffaeb/config [none]
+[debug] [2023-05-19T10:23:32.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235/webApps/1:595594979442:web:3bbc71e6502aeba51ffaeb/config 200
+[debug] [2023-05-19T10:23:32.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235/webApps/1:595594979442:web:3bbc71e6502aeba51ffaeb/config {"projectId":"genious-car-services-fe235","appId":"1:595594979442:web:3bbc71e6502aeba51ffaeb","storageBucket":"genious-car-services-fe235.appspot.com","apiKey":"AIzaSyBb0ZEtYEdMzb0NTRrBE3xL93MgEtBlcFo","authDomain":"genious-car-services-fe235.firebaseapp.com","messagingSenderId":"595594979442"}
+[debug] [2023-05-19T10:23:32.226Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 [none]
+[debug] [2023-05-19T10:23:33.284Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 200
+[debug] [2023-05-19T10:23:33.284Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genious-car-services-fe235 {"projectId":"genious-car-services-fe235","projectNumber":"595594979442","displayName":"genious-car-services","name":"projects/genious-car-services-fe235","resources":{"hostingSite":"genious-car-services-fe235"},"state":"ACTIVE","etag":"1_f5350fab-a427-41ed-a8d5-6c4660bfeb30"}
+[info] i  hosting[genious-car-services-fe235]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[genious-car-services-fe235]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

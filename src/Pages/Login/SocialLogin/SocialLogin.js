@@ -6,6 +6,8 @@ import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/a
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 import Loading from '../../../Shared/Loading/Loading';
+import './SocialLogin.css'
+
 
 const SocialLogin = () => {
     const navigate = useNavigate()
@@ -32,7 +34,7 @@ const SocialLogin = () => {
             <p className='mt-3'>Or</p>
             <div style={{height: '1px'}} className='bg-primary w-50'></div>
         </div>
-        <div>
+        <div className='social-button'>
             <button onClick={()=>signInWithGoogle()}
             className='btn btn-primary w-50 d-block mx-auto my-2'>
                 <img style={{width:'30px', marginRight: '5px'}} src={google} alt="" />
